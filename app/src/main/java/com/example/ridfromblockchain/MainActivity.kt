@@ -16,4 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         myRef.setValue("RID from Blockchain app is successfully connected to Firebase!")
     }
+
+    //TODO sign up redirect
 }

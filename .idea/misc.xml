@@ -6,7 +6,9 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
         <entry key="app/src/main/res/drawable/edit_test_bg.xml" value="0.235" />
         <entry key="app/src/main/res/drawable/ic_dash.xml" value="0.236" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2259857177734375" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.35255126953125" />
+        <entry key="app/src/main/res/layout/content_sign_up.xml" value="0.2296875" />
       </map>
     </option>
   </component>

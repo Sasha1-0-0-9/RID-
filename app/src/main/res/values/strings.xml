@@ -10,4 +10,11 @@
 
     <string name="restore_password">Forgot Password?</string>
     <string name="new_account">Create Account</string>
+
+    <string name="welcome_sign_up">Welcome!</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="email_hint">Email</string>
+    <string name="password_confirmation_hint">Password confirmation</string>
+
+    <string name="sign_up_btn">Sign up</string>
 </resources>
