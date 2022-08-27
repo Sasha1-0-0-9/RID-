@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dash_blue"
-    tools:context=".MainActivity">
+    tools:context=".SignUp">
 
     <ImageView
         android:id="@+id/dash_logo"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
         android:fontFamily="@font/inter_bold"
-        android:text="@string/welcome"
+        android:text="@string/welcome_sign_up"
         android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,16 +34,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/login"
+        android:id="@+id/nickname"
         android:layout_width="324dp"
         android:layout_height="48dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="64dp"
         android:background="@drawable/edit_test_bg"
         android:ems="10"
-        android:hint="@string/login_hint"
-        android:inputType="textEmailAddress"
+        android:hint="@string/nickname_hint"
+        android:inputType="text"
         android:paddingStart="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.536"
@@ -51,11 +51,28 @@
         app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
     <EditText
+        android:id="@+id/email"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/edit_test_bg"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickname" />
+
+    <EditText
         android:id="@+id/password"
         android:layout_width="324dp"
         android:layout_height="48dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="64dp"
         android:background="@drawable/edit_test_bg"
         android:ems="10"
@@ -63,23 +80,40 @@
         android:inputType="textPassword"
         android:paddingStart="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/password_confirmation"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/edit_test_bg"
+        android:ems="10"
+        android:hint="@string/password_confirmation_hint"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
-        android:id="@+id/login_btn"
+        android:id="@+id/sign_up_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/inter_bold"
-        android:text="@string/login"
+        android:text="@string/sign_up_btn"
         android:textColor="@color/dash_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/password_confirmation" />
 
     <TextView
         android:id="@+id/textView"
@@ -95,30 +129,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dash_logo" />
 
-    <TextView
-        android:id="@+id/restore_passwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/inter_bold"
-        android:text="@string/restore_password"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
-
-    <TextView
-        android:id="@+id/sign_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/inter_bold"
-        android:text="@string/new_account"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/restore_passwd" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

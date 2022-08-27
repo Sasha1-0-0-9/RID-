@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">RID from Blockchain</string>
+    <string name="app_name_login">Read Investments Data</string>
+    <string name="welcome">Welcome Back!</string>
+
+    <string name="dash_text_logo">Dash text logo</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Login</string>
+
+    <string name="restore_password">Forgot Password?</string>
+    <string name="new_account">Create Account</string>
+
+    <string name="welcome_sign_up">Welcome!</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="email_hint">Email</string>
+    <string name="password_confirmation_hint">Password confirmation</string>
+
+    <string name="sign_up_btn">Sign up</string>
 </resources>
