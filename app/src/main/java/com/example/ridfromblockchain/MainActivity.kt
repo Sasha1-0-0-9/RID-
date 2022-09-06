@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, SignUp::class.java))
         })
 
+        val login = findViewById<TextView>(R.id.login_btn)
+        login.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this@MainActivity, main_frame::class.java))
+        })
+
         myRef.setValue("RID from Blockchain app is successfully connected to Firebase!")
     }
 

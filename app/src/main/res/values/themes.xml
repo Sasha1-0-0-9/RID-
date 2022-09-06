@@ -3,7 +3,7 @@
     <style name="Theme.RIDFromBlockchain" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="windowNoTitle">true</item>
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dash_blue</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/dash_blue</item>
         <item name="colorOnPrimary">@color/dash_blue</item>
         <!-- Secondary brand color. -->
@@ -13,5 +13,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/dash_blue</item>
         <!-- Customize your theme here. -->
+        <item name="android:actionMenuTextColor">@color/dash_blue</item>
+
+        <item name="android:textColor">@color/dash_blue</item>
+
+
     </style>
+
 </resources>
