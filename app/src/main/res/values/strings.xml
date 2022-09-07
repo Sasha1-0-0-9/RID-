@@ -21,4 +21,18 @@
     <string name="chart_bar">Display bar chart</string>
     <string name="chart_pie">Display pie chart</string>
     <string name="header_title">Investments Data</string>
+
+    <string name="date_picker">Choose Period</string>
+    <string name="date_from">From</string>
+    <string name="date_to">To</string>
+    <string name="picker_hint">yyyy/mm/dd</string>
+
+    <string name="report">Report</string>
+    <string name="report_btn">Generate Report</string>
+    
+    <string name="export">Export</string>
+    <string name="exp_excel">Export to Excel</string>
+    <string name="exp_csv">Download .csv</string>
+
+    <string name="sign_out_btn">Sign Out</string>
 </resources>

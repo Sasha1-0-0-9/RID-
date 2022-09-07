@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.13370332996972756" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/date_pick.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/edit_test_bg.xml" value="0.235" />
         <entry key="app/src/main/res/drawable/ic_dash.xml" value="0.236" />
         <entry key="app/src/main/res/drawable/ic_dash_logo.xml" value="0.236" />
@@ -12,9 +13,10 @@
         <entry key="app/src/main/res/drawable/ic_header.xml" value="0.236" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
         <entry key="app/src/main/res/drawable/ic_plot_mock.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/main_fr_buttons.xml" value="0.125" />
         <entry key="app/src/main/res/layout-v26/activity_main_frame.xml" value="0.29270833333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2259857177734375" />
-        <entry key="app/src/main/res/layout/activity_main_frame.xml" value="0.2327485380116959" />
+        <entry key="app/src/main/res/layout/activity_main_frame.xml" value="0.22152099609375003" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_toolbar.xml" value="0.137518310546875" />
         <entry key="app/src/main/res/layout/content_sign_up.xml" value="0.2296875" />
