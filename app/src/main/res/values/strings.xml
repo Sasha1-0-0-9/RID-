@@ -29,10 +29,44 @@
 
     <string name="report">Report</string>
     <string name="report_btn">Generate Report</string>
-    
+
     <string name="export">Export</string>
     <string name="exp_excel">Export to Excel</string>
     <string name="exp_csv">Download .csv</string>
 
     <string name="sign_out_btn">Sign Out</string>
+
+    <string name="budget_proposals">Budget Proposals</string>
+    
+    <string name="proposal_name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="abstain">Abstain</string>
+    <string name="funded">Funded</string>
+
+    <string name="incubator">Dash Incubator</string>
+    <string name="dmh">Marketing Hub</string>
+    <string name="test_proposal">Test Proposal</string>
+    <string name="crowd_node">CrowdNode</string>
+    
+    <string name="amount_400">400 DASH</string>
+    <string name="amount_240">240 DASH</string>
+    <string name="amount_523">523 DASH</string>
+    <string name="amount_12443">12443 DASH</string>
+
+    <string name="yes_234">234</string>
+    <string name="yes_200">200</string>
+    <string name="yes_24">24</string>
+    <string name="yes_245">245</string>
+    
+    <string name="no_32">32</string>
+    <string name="no_23">23</string>
+    <string name="no_57">57</string>
+    <string name="no_189">189</string>
+
+    <string name="abstain_12">12</string>
+    <string name="abstain_17">17</string>
+    <string name="abstain_1">1</string>
+    <string name="abstain_23">23</string>
 </resources>
