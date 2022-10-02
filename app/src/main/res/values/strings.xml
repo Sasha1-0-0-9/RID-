@@ -74,5 +74,10 @@
     <string name="added_at">Added at</string>
     <string name="date_time">2022-06-10 11:25:45</string>
     <string name="build_chart">Build Chart</string>
-
+    
+    <string name="details">Proposal Details</string>
+    <string name="proposal_url">Proposal URL:</string>
+    <string name="test_url">https://cool_proposal.com</string>
+    <string name="add_watchlist">Add to watchlist</string>
+    <string name="remove_watchlist">Remove from watchlist</string>
 </resources>
